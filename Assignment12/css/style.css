@@ -1,7 +1,7 @@
 /* Overall Page Syling */
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(158, 211, 252);
+    background-color: rgb(226, 222, 216);
     max-width: 100%; 
     overflow-x: hidden;
 }
@@ -12,14 +12,32 @@ body{
 }
 
 /* Image & Paragraph */
-p{
+.para1989{
     font-size: 110%;
     margin-left: 20pt;
     color: rgb(243, 246, 255);
     line-height: normal;
     font-kerning: auto;
+    background-color: rgb(158, 211, 252);
 }
 
+.pararep{
+    font-size: 110%;
+    margin-left: 20pt;
+    color: rgb(213, 213, 221);
+    line-height: normal;
+    font-kerning: auto;
+    background-color: rgb(34, 34, 34);
+}
+
+.parafolk{
+    font-size: 110%;
+    margin-left: 20pt;
+    color: rgb(234, 234, 238);
+    line-height: normal;
+    font-kerning: auto;
+    background-color: rgb(139, 139, 139);
+}
 
 .image-wrapper {
     float: left; 
@@ -46,6 +64,10 @@ p{
     color: rgb(255, 67, 15);
 
 }
+
+.overflow-scroll {
+    overflow: scroll;
+ }
 
 
 
