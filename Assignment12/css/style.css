@@ -79,7 +79,10 @@ body{
     width:100%;
     padding: 50px;
     text-align: center;
-    background-color: rgba(243, 246, 255);
+    background-color: rgb(53, 53, 54);
+    border-bottom-style: dashed;
+    border-bottom-width: 9px;
+    border-bottom-color: rgb(250, 252, 238);
 }
 
 #mainheader{
@@ -87,7 +90,7 @@ body{
     text-align: center;
     left: 20px;
     top:5px;
-    color: rgb(158, 211, 252);
+    color: rgb(250, 252, 238);
     font-size: 500%;
     font-kerning: auto;
     font: 'Taylor Swift Handwriting';
