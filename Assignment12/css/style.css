@@ -1,0 +1,72 @@
+/* Overall Page Syling */
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(158, 211, 252);
+    max-width: 100%; 
+    overflow-x: hidden;
+}
+
+
+.parenttxt{
+    font-size: 32;
+}
+
+/* Image & Paragraph */
+p{
+    font-size: 110%;
+    margin-left: 20pt;
+    color: rgb(243, 246, 255);
+    line-height: normal;
+    font-kerning: auto;
+}
+
+
+.image-wrapper {
+    float: left; 
+    margin-right: 20px; 
+}
+
+.image-wrapper img {
+    float: left; 
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+}
+
+
+.photo{
+    float: left;
+    margin-left: 10px;
+    height: auto; 
+    width: 30%;
+}
+
+.text:hover{
+
+    text-transform: uppercase;
+    color: rgb(255, 67, 15);
+
+}
+
+
+
+
+/* Header */
+.headercontainer{
+    
+    margin: auto;
+    width:100%;
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(243, 246, 255);
+}
+
+#mainheader{
+    position: center;
+    text-align: center;
+    left: 20px;
+    top:5px;
+    color: rgb(158, 211, 252);
+    font-size: 500%;
+    font-kerning: auto;
+    font: 'Taylor Swift Handwriting';
+}
