@@ -1,0 +1,97 @@
+/* Overall Page Syling */
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(226, 222, 216);
+    max-width: 100%; 
+    overflow-x: hidden;
+}
+
+
+.parenttxt{
+    font-size: 32;
+}
+
+/* Image & Paragraph */
+.para1989{
+    font-size: 110%;
+    margin-left: 20pt;
+    color: rgb(243, 246, 255);
+    line-height: normal;
+    font-kerning: auto;
+    background-color: rgb(158, 211, 252);
+}
+
+.pararep{
+    font-size: 110%;
+    margin-left: 20pt;
+    color: rgb(213, 213, 221);
+    line-height: normal;
+    font-kerning: auto;
+    background-color: rgb(34, 34, 34);
+}
+
+.parafolk{
+    font-size: 110%;
+    margin-left: 20pt;
+    color: rgb(234, 234, 238);
+    line-height: normal;
+    font-kerning: auto;
+    background-color: rgb(139, 139, 139);
+}
+
+.image-wrapper {
+    float: left; 
+    margin-right: 20px; 
+}
+
+.image-wrapper img {
+    float: left; 
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+}
+
+
+.photo{
+    float: left;
+    margin-left: 10px;
+    height: auto; 
+    width: 30%;
+}
+
+.text:hover{
+
+    text-transform: uppercase;
+    color: rgb(255, 67, 15);
+
+}
+
+.overflow-scroll {
+    overflow: scroll;
+ }
+
+
+
+
+/* Header */
+.headercontainer{
+    
+    margin: auto;
+    width:100%;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(53, 53, 54);
+    border-bottom-style: dashed;
+    border-bottom-width: 9px;
+    border-bottom-color: rgb(250, 252, 238);
+}
+
+#mainheader{
+    position: center;
+    text-align: center;
+    left: 20px;
+    top:5px;
+    color: rgb(250, 252, 238);
+    font-size: 500%;
+    font-kerning: auto;
+    font: 'Taylor Swift Handwriting';
+}
